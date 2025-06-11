@@ -1,0 +1,32 @@
+<main>
+    <section class="hero">
+        <img src="/assets/logo.png" alt="Logo" aria-hidden="true" height="300" width="300" class="logo">
+        <h1>
+            Comuna do Código
+        </h1>
+        <p>
+            Código para todos, por todos.
+        </p>
+    </section>
+    <section class="concepts">
+        <h2>
+            Conceitos
+        </h2>
+        <div class="sections">
+            <button mat-stroked-button [routerLink]="['flexbox']">
+                Flexbox
+            </button>
+            <button mat-stroked-button [routerLink]="['anchor']">
+                Anchoring
+            </button>
+        </div>
+    </section>
+    <section class="components">
+        <h2>
+            Componentes
+        </h2>
+        <button mat-stroked-button [routerLink]="['componentes', 'botoes']" #botaoBonitao>
+            Botões
+        </button>
+    </section>
+</main>
